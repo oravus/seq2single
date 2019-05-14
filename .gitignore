@@ -1,0 +1,7 @@
+.ipynb_checkpoints
+
+precomputed/*
+!precomputed/readme.md
+
+images/*
+!images/readme.md
