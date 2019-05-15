@@ -4,6 +4,7 @@ This is the source code for the paper titled: "Look No Deeper: Recognizing Place
 
 If you find this work useful, please cite it as: 
 Garg, S., Babu V, M., Dharmasiri, T., Hausler, S., Suenderhauf, N., Kumar, S., Drummond, T., & Milford, M. (2019). Look no deeper: Recognizing places from opposing viewpoints under varying scene appearance using single-view depth estimation. In IEEE International Conference on Robotics and Automation (ICRA), 2019. IEEE.
+
 bibtex:
 ```
 @inproceedings{garg2019look,
@@ -29,13 +30,15 @@ year={2019}
 Optionally, for vis_results.ipynb:
   - Matplotlib	(Tested on *2.0.2*)
 
-#### Download sample dataset and pre-computed features
-1. Pre-computed features (*~10 GB*): https://mega.nz/#F!Z4Z3gAzb!KI48uGHJJza90DP7-Kz1kA
-2. [Optional] Images: https://mega.nz/#F!h5QB2ayI!H7p0UCxATd6MUdszMZWNOA
-(Note: Mega requires you to first create an account (free))
+#### Download an example dataset and its pre-computed representations
+1. In `seq2single/precomputed/`, download [pre-computed representations (*~10 GB*)](https://mega.nz/#F!Z4Z3gAzb!KI48uGHJJza90DP7-Kz1kA). Please refer to the `seq2single/precomputed/readme.md` for instructions on how to compute these representations.
+
+2. [Optional] In `seq2single/images/`, download [images (*~1 GB*)](https://mega.nz/#F!h5QB2ayI!H7p0UCxATd6MUdszMZWNOA). These images are a subset of two different traverses from the [Oxford Robotcar dataset](https://robotcar-dataset.robots.ox.ac.uk/).
+
+(Note: These download links from Mega.nz require you to first create an account (free))
 
 #### Run
-1. The Jupyter notebook seq2single.ipynb loads the pre-computed image descriptors to find top matches first. These matches are re-ranked with the proposed method using the pre-computed depth masks and dense conv5 features.
+1. The Jupyter notebook seq2single.ipynb first loads the pre-computed global image descriptors to find top matches. These matches are re-ranked with the proposed method using the pre-computed depth masks and dense conv5 features.
 
 
 #### License
