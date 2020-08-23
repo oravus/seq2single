@@ -43,3 +43,10 @@ Optionally, for vis_results.ipynb:
 
 #### License
 The code is released under MIT License.
+
+## Related Projects
+[Delta Descriptors (2020)](https://github.com/oravus/DeltaDescriptors)
+
+[CoarseHash (2020)](https://github.com/oravus/CoarseHash)
+
+[LoST (2018)](https://github.com/oravus/lostX)
