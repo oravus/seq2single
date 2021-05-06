@@ -1,6 +1,6 @@
 ## Look No Deeper: Recognizing Places from Opposing Viewpoints under Varying Scene Appearance using Single-View Depth Estimation
 
-This is the source code for the paper titled: "Look No Deeper: Recognizing Places from Opposing Viewpoints under Varying Scene Appearance using Single-View Depth Estimation", pre-print avialable [here](https://arxiv.org/abs/1902.07381).
+This is the source code for the paper titled: "Look No Deeper: Recognizing Places from Opposing Viewpoints under Varying Scene Appearance using Single-View Depth Estimation", [[arXiv](https://arxiv.org/abs/1902.07381)][[IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/8794178/)].
 
 If you find this work useful, please cite it as: 
 Garg, S., Babu V, M., Dharmasiri, T., Hausler, S., Suenderhauf, N., Kumar, S., Drummond, T., & Milford, M. (2019). Look no deeper: Recognizing places from opposing viewpoints under varying scene appearance using single-view depth estimation. In IEEE International Conference on Robotics and Automation (ICRA), 2019. IEEE.
